@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap; */
+
+        /* flex-grow: 0; 
+    flex-shrink: 0;
+    flex-basis: 100px;
+    order: 1; */
+
+
+
+
+
+header{
+    padding: 10px;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+
+}
+
+.flex-item{
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.flex-item-reverse{
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-direction: row-reverse;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style:none;
+    display: inline;
+    text-decoration: none;
+}
+
+.menu-column{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.logo-column{
+    width: 20%;
+}
+
+.button-column{
+    width: 20%;
+}
+
+
+
+.flex-multi{
+    display: flex;
+    flex-grow: 4;
+}
+
+.head-content{
+    padding: 10px;
+    
+    text-align: center;
+    color: #fff;
+    
+}
+
+.single{
+    line-height: 30px;
+    height: 200px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    color: white;
+   
+}
+
+.single2{
+   
+    margin: 0 auto;
+   
+}
+
+.small{
+    
+    
+    flex-grow: 1;
+}
+.large{
+    flex-grow: 2;
+}
+
+.smaller{
+    background-color: aquamarine;
+    height: 300px;
+    width: 25%;
+    border: solid 1px;
+}
+
+.sx2{
+    background-color: rgb(23, 220, 220);
+    height: 300px;
+    flex-grow: 4;
+}
+.dx2{
+    background-color: pink;
+    height: 300px;
+    flex-grow: 1;
+}
+
+footer{
+    padding: 10px;
+    border-top: 1px solid white;
+   
+}
+
+
+.footer-content{
+    padding: 10px;
+    width: 1150px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.button{
+color: #fff;
+background-color: #2fa0f6;
+min-width: 120px;
+padding: 2px;
+border-radius: 5px;
+text-align: center;
+
+}
+
+
+
+.bg-gray{
+    background-color: lightgrey;
+}
+
+
+    
+
+.bg-black{
+    background-color: black;
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
