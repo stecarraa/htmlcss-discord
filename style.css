@@ -17,12 +17,19 @@
 
 
 
-
+h1{
+    padding: 20px;
+    font-size: 40px;
+}
 
 header{
     padding: 10px;
     background-image: url(img/jumbo.png);
     background-size: cover;
+    background-repeat: no-repeat;
+ 
+ ;
+
 
 }
 
@@ -111,8 +118,7 @@ li{
 }
 
 .small{
-    
-    
+    flex-direction: column;
     flex-grow: 1;
 }
 .large{
@@ -166,8 +172,12 @@ text-align: center;
 .bg-gray{
     background-color: lightgrey;
 }
-
-
+.flag-container{
+    height: 5px;
+}
+.flag{
+    height: 10px;
+}
     
 
 .bg-black{
