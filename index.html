@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
     <title>FLEXBOX</title>
 </head>
 
@@ -28,11 +31,11 @@
 
           <!-- prima sezione -->
         <div class="bg-blue">
-        <div class="flex-item">
+        <div class="flex-item pic">
             <div class="single">
                 <h1>Il tuo posto  per parlare</h1>
                 <p>Dove far parte di un club scolastico, un gruppo di gamer, una community artistica mondiale o dove trascorrere tempo assieme a un piccolo gruppo di amici: uno spazio in cui è più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
-                <span><button class="button">Scarica per Mac</button></span><span><button class="button">Apri Discord nel Tuo Browser</button></span>
+                <span><button class="button-download">Scarica per Mac</button></span><span><button class="button-browser">Apri Discord nel Tuo Browser</button></span>
             </div>
         </div>
     </div>
@@ -71,7 +74,8 @@
             <h1>Tecnologia Affidabile per tenersi in contatto</h1>
             <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
             <div class="single"><img src="img/item4-big.svg" alt=""></div>
-            <div>Pronto a iniziare la tua avventura?</div>
+            <div class="star">Pronto a iniziare la tua avventura?</div>
+            <div><button class="button-download">Scarica per Mac</button></div>
         </div>
     </div>
     <!-- sesta sezione -->
@@ -79,7 +83,11 @@
         
 
         <footer><div class="flex-item">
-            <div class="dx2"> Il tuo posto per parlare</div><div class="flag-container"><img class="flag" src="img/ita.png" alt=""></div>
+            <div class="dx2"> 
+                <div>Il tuo posto per parlare</div> 
+                <div><img class="flag" src="img/ita.png"alt="">italiano</div>
+                <div class="social"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-youtube"></i><i class="fa-brands fa-instagram"></i></div>
+            </div>
             <div class="sx2">
                 <div class="flex-multi">
                     <div class="smaller">
@@ -131,7 +139,7 @@
         </div>
             <div class="flex-item footer-content">
                 <div><i class="fa-brands fa-discord"></i>DISCORD</div>
-                <div><button class="button">Login</button></div>
+                <div><button class="button-registration">Registrati</button></div>
             </div>
         </footer>
     </div>

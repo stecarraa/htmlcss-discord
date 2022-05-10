@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+
 }
 
 /* justify-content: flex-start;
@@ -15,7 +17,9 @@
     flex-basis: 100px;
     order: 1; */
 
-
+body{
+    font-family: 'Signika Negative', sans-serif;
+}
 
 h1{
     padding: 20px;
@@ -25,15 +29,14 @@ h1{
 header{
     padding: 10px;
     background-image: url(img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
- 
- ;
-
-
 }
 
+.pic{
+    height: 500px;
+
+}
 .flex-item{
     width: 800px;
     margin: 0 auto;
@@ -41,7 +44,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    
+    align-items: flex-start;
 }
 
 .flex-item-single{
@@ -121,20 +124,19 @@ li{
 
 .smaller{
     
-    height: 300px;
+   
     width: 25%;
    
 }
 
 .sx2{
     color: #fff;
-    height: 300px;
     flex-grow: 4;
 }
 .dx2{
    color: #fff;
-    height: 300px;
     flex-grow: 1;
+    line-height: 50px;
 }
 
 footer{
@@ -158,10 +160,49 @@ min-width: 120px;
 padding: 2px;
 border-radius: 5px;
 text-align: center;
-
 }
 
+.star{
+    background-image: url(img/stars.svg);
+    
+    font-size: 40px;
+}
+.button-download{
+    color: #fff;
+    background-color: #0c0c0c;
+    min-width: 120px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 100px;
+    
+    }
+    .button-browser{
+        color: rgb(2, 2, 2);
+        background-color: #f4f8fb;
+        min-width: 120px;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+        margin: 10px;
+        
+        }
 
+        .button-registration{
+            color: white;
+            background-color: rgb(211, 110, 211);
+            min-width: 120px;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 10px;
+            
+            }
+
+.fa-brands{
+    margin-right: 20px;
+}
 
 .bg-gray{
     background-color: lightgrey;
@@ -171,6 +212,7 @@ text-align: center;
 }
 .flag{
     height: 10px;
+    margin-right: 10px;
 }
     
 
