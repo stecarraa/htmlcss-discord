@@ -3,19 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Signika Negative', sans-serif;
-
 }
-
-/* justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    align-content: center;
-    flex-wrap: wrap; */
-
-        /* flex-grow: 0; 
-    flex-shrink: 0;
-    flex-basis: 100px;
-    order: 1; */
 
 body{
     font-family: 'Signika Negative', sans-serif;
@@ -35,7 +23,6 @@ header{
 
 .pic{
     height: 500px;
-
 }
 .flex-item{
     width: 800px;
@@ -47,13 +34,16 @@ header{
     align-items: flex-start;
 }
 
+.head-content{
+    align-items: center;
+}
+
 .flex-item-single{
     width: 800px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 a{
@@ -88,8 +78,6 @@ li{
     width: 20%;
 }
 
-
-
 .flex-multi{
     display: flex;
     flex-grow: 4;
@@ -97,10 +85,8 @@ li{
 
 .head-content{
     padding: 10px;
-    
     text-align: center;
     color: #fff;
-    
 }
 
 .single{
@@ -109,10 +95,7 @@ li{
     text-align: center;
     padding: 10px;
     color: white;
-   
 }
-
-
 
 .small{
     flex-direction: column;
@@ -123,10 +106,7 @@ li{
 }
 
 .smaller{
-    
-   
     width: 25%;
-   
 }
 
 .sx2{
@@ -141,10 +121,8 @@ li{
 
 footer{
     padding: 10px;
-    border-top: 1px solid purple;
-   
+    border-top: 1px solid purple; 
 }
-
 
 .footer-content{
     padding: 10px;
@@ -154,51 +132,43 @@ footer{
 }
 
 .button{
-color: #fff;
-background-color: #2fa0f6;
-min-width: 120px;
-padding: 2px;
-border-radius: 5px;
+color: rgb(1, 0, 0);
+background-color: #f0f4f7;
+padding: 10px;
+border-radius: 10px;
 text-align: center;
 }
 
 .star{
     background-image: url(img/stars.svg);
-    
     font-size: 40px;
 }
-.button-download{
-    color: #fff;
-    background-color: #0c0c0c;
-    min-width: 120px;
-    padding: 20px;
+
+.btn{
+    min-width: 80px;
     border-radius: 20px;
     text-align: center;
     margin: 10px;
-    margin-top: 100px;
-    
-    }
-    .button-browser{
+}
+
+.button-download{
+    color: #fff;
+    background-color: #0c0c0c;
+    padding: 20px;
+    margin-top: 50px;
+ }
+.button-browser{
         color: rgb(2, 2, 2);
         background-color: #f4f8fb;
-        min-width: 120px;
         padding: 20px;
-        border-radius: 20px;
-        text-align: center;
-        margin: 10px;
-        
-        }
+}
 
-        .button-registration{
+.button-registration{
             color: white;
             background-color: rgb(211, 110, 211);
-            min-width: 120px;
             padding: 10px;
-            border-radius: 20px;
-            text-align: center;
-            margin: 10px;
             
-            }
+ }
 
 .fa-brands{
     margin-right: 20px;
