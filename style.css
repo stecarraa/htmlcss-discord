@@ -189,3 +189,16 @@ text-align: center;
 .bg-black{
     background-color: black;
 }
+
+
+.wave{
+filter: opacity(0.17);
+height: 100px;
+background-image: url(img/wave.svg);
+}
+.rotate{
+    filter: opacity(0.17);
+    transform: rotateX(180deg);
+    height: 100px;
+    background-image: url(img/wave.svg);
+}
